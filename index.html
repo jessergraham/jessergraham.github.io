@@ -3,13 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Data Science and Analytics Blog</title>
-    <style>
-        h2 {
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<h2> Blog coming soon! </h2>
+<div class="leftSideContent">
+    <img src="images/Bulls-logo.png" height="60px" width="auto" alt="USF Logo">
+    <br>
+    <p>Jesse Graham</p>
+    <p>Adv Stats & Analytics Blog</p>
+</div>
+<div class="middleContent">
+    <h3 style="padding-left: 10px">08/06/2022 Week 2</h3>
+    <p id="week2">
+        <code>
+            assignment2<- c(6,18,14,22,27,17,22,20,22)
+            <br>
+            myMean <- function(aList) {
+            <br>
+            return(sum(aList)/length(aList))
+            <br>
+            }
+            <br>
+            myMean(assignment2)
+            <br>
+        </code>
+        <br>
+    </p>
+    <p>The function myMean takes a list of numbers or a vector and returns the average, or mean. The vector called
+    "assignment2" passes through the function where the sum function adds all the numbers within "assignment2" giving
+    you the sum of the contents of the vector. The function length() then finds the amount of individual numbers
+    within the vector which is 9. It then divides the sum of all numbers by the length of all numbers resulting
+    in the average or mean of the vector. When the function is called myMean(assignment2) it returns an average
+    of 18.66667
+    </p>
+</div>
 </body>
 </html>
